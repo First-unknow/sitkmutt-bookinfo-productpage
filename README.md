@@ -18,3 +18,9 @@ docker build -t productpage .
 # Run productpage service on port 8083
 docker run --name productpage -p 8083:8083 productpage
 ```
+
+## How to run with Docker Compose
+
+```bash
+docker-compose up
+```
